@@ -1,0 +1,50 @@
+# Copy from https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore
+# Commit ID: 2c52d023ddb520962d1aa81ab030ee5172261eb2
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Copy from https://github.com/github/gitignore/blob/master/CMake.gitignore
+# Commit ID: f273474b975f0f2888750a854572562db6de318e
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps

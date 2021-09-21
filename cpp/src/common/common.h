@@ -5,4 +5,6 @@
 
 #include <gtest/gtest.h>
 
+#include "list.h"
+
 using namespace std;

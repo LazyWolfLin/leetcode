@@ -25,25 +25,22 @@ class Solution {
 };
 
 TEST(addTwoNumbers, example1) {
-  Solution s;
   auto l1 = list_create({2, 4, 3});
   auto l2 = list_create({5, 6, 4});
   auto ans = list_create({7, 0, 8});
-  EXPECT_TRUE(list_equal(s.addTwoNumbers(l1, l2), ans));
+  EXPECT_TRUE(list_equal(Solution().addTwoNumbers(l1, l2), ans));
 }
 
 TEST(addTwoNumbers, example2) {
-  Solution s;
   auto l1 = list_create({0});
   auto l2 = list_create({0});
   auto ans = list_create({0});
-  EXPECT_TRUE(list_equal(s.addTwoNumbers(l1, l2), ans));
+  EXPECT_TRUE(list_equal(Solution().addTwoNumbers(l1, l2), ans));
 }
 
 TEST(addTwoNumbers, example3) {
-  Solution s;
   auto l1 = list_create({9, 9, 9, 9, 9, 9, 9});
   auto l2 = list_create({9, 9, 9, 9});
   auto ans = list_create({8, 9, 9, 9, 0, 0, 0, 1});
-  EXPECT_TRUE(list_equal(s.addTwoNumbers(l1, l2), ans));
+  EXPECT_TRUE(list_equal(Solution().addTwoNumbers(l1, l2), ans));
 }

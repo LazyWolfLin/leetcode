@@ -7,7 +7,7 @@ init:
 	git submodule update
 
 cpp:
-	mkdir -p build && cmake -S cpp -B build && cd build && make && ctest
+	cd cpp && make test
 
 go:
 	cd go && make

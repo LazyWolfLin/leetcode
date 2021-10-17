@@ -1,5 +1,3 @@
-build/
-
 # Copy from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
 # Commit ID: eefa65c924329ad918985713cdb195e6bc68744b
 
@@ -12,3 +10,6 @@ build/
 
 # Local History for Visual Studio Code
 .history/
+
+# User Configure
+build/

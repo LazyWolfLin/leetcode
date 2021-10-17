@@ -1,3 +1,10 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/cpp"
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.buildDirectory": "${workspaceFolder}/cpp/build",
+    "cmake.sourceDirectory": "${workspaceFolder}/cpp",
+    "python.testing.cwd": "${workspaceFolder}/python",
+    "python.testing.unittestEnabled": true,
+    "rust-analyzer.linkedProjects": [
+        "rust/Cargo.toml"
+    ]
 }

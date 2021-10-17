@@ -1,4 +1,4 @@
-// LeetCode 12. Integer to Roman by C++
+// LeetCode 12. Integer to Roman in C++
 
 #include "common.h"
 

@@ -8,11 +8,6 @@ from src.common.list import *
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
         head = tail = ListNode()
         val = 0
         while l1 or l2 or val > 0:

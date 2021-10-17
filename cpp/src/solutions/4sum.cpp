@@ -1,4 +1,4 @@
-// LeetCode 18. 4Sum by C++
+// LeetCode 18. 4Sum in C++
 
 #include "common.h"
 

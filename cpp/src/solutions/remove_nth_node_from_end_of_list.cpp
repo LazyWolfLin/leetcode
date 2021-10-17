@@ -1,4 +1,4 @@
-// LeetCode 19. Remove Nth Node From End of List by C++
+// LeetCode 19. Remove Nth Node From End of List in C++
 
 #include "common.h"
 

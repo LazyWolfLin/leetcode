@@ -1,4 +1,4 @@
-// LeetCode 5. Longest Palindromic Substring by C++
+// LeetCode 5. Longest Palindromic Substring in C++
 // Manacher Algorithms
 
 #include "common.h"

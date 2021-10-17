@@ -1,4 +1,4 @@
-// LeetCode 17. Letter Combinations of a Phone Number by C++
+// LeetCode 17. Letter Combinations of a Phone Number in C++
 
 #include "common.h"
 

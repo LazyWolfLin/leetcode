@@ -1,4 +1,4 @@
-// LeetCode 11. Container With Most Water by C++
+// LeetCode 11. Container With Most Water in C++
 
 #include "common.h"
 

@@ -1,4 +1,4 @@
-// LeetCode 14. Longest Common Prefix by C++
+// LeetCode 14. Longest Common Prefix in C++
 
 #include "common.h"
 

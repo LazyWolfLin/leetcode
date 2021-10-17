@@ -1,4 +1,4 @@
-// LeetCode 15. 3Sum by C++
+// LeetCode 15. 3Sum in C++
 
 #include "common.h"
 

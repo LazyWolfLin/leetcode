@@ -6,13 +6,13 @@
 class Solution {
  public:
   string longestPalindrome(string s) {
-    string t = "$#" + string(s.size() * 2, '#');
+    string t = "$#" + string(s.size() * 2, '#') + "!";
     for (int i = 0; i < s.size(); i++) {
       t[i * 2 + 2] = s[i];
     }
-    vector<int> f(t.size(), 1);
+    vector<int> f(t.size() - 1, 1);
     int current_center = 0, current_right = 0, ans_len = 0, ans_center = 0;
-    for (int i = 1; i < t.size(); i++) {
+    for (int i = 1; i < t.size() - 1; i++) {
       if (current_right > i) {
         f[i] = min(f[2 * current_center - i], current_right - i);
       }

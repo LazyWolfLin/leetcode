@@ -21,16 +21,16 @@ class TestTwoSum(unittest.TestCase):
         nums = [2, 7, 11, 15]
         target = 9
         ans = [0, 1]
-        self.assertEqual(ans, Solution().twoSum(nums, target))
+        self.assertEqual(Solution().twoSum(nums, target), ans)
 
     def testExample2(self):
         nums = [3, 2, 4]
         target = 6
         ans = [1, 2]
-        self.assertEqual(ans, Solution().twoSum(nums, target))
+        self.assertEqual(Solution().twoSum(nums, target), ans)
 
     def testExample3(self):
         nums = [3, 3]
         target = 6
         ans = [0, 1]
-        self.assertEqual(ans, Solution().twoSum(nums, target))
+        self.assertEqual(Solution().twoSum(nums, target), ans)

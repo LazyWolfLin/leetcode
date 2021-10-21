@@ -29,16 +29,16 @@ class TestAddTwoNumbers(unittest.TestCase):
         l1 = list_create([2, 4, 3])
         l2 = list_create([5, 6, 4])
         ans = list_create([7, 0, 8])
-        self.assertTrue(list_equal(ans, Solution().addTwoNumbers(l1, l2)))
+        self.assertTrue(list_equal(Solution().addTwoNumbers(l1, l2), ans))
 
     def testExample2(self):
         l1 = list_create([0])
         l2 = list_create([0])
         ans = list_create([0])
-        self.assertTrue(list_equal(ans, Solution().addTwoNumbers(l1, l2)))
+        self.assertTrue(list_equal(Solution().addTwoNumbers(l1, l2), ans))
 
     def testExample3(self):
         l1 = list_create([9, 9, 9, 9, 9, 9, 9])
         l2 = list_create([9, 9, 9, 9])
         ans = list_create([8, 9, 9, 9, 0, 0, 0, 1])
-        self.assertTrue(list_equal(ans, Solution().addTwoNumbers(l1, l2)))
+        self.assertTrue(list_equal(Solution().addTwoNumbers(l1, l2), ans))

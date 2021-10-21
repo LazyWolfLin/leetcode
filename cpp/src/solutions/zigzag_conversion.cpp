@@ -5,15 +5,15 @@
 class Solution {
  public:
   string convert(string s, int numRows) {
-    if (numRows == 1) return s;
+    if (numRows == 1 || numRows > s.size()) return s;
     string ans;
     ans.reserve(s.size());
-    auto key = 2 * numRows - 2;
-    for (auto i = 0; i < numRows; i++, key -= 2) {
+    for (auto i = 0; i < numRows; i++) {
+      auto key = (numRows - i - 1) * 2;
       auto j = i;
       while (j < s.size()) {
         ans += s[j];
-        if (i != 0 && i != numRows - 1 && j + key < s.size()) {
+        if (i != 0 && key != 0 && j + key < s.size()) {
           ans += s[j + key];
         }
         j += key + 2 * i;

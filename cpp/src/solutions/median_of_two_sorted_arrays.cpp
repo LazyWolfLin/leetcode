@@ -20,7 +20,7 @@ class Solution {
       } else
         break;
     }
-    double ans = 0.0f;
+    int ans = 0;
     if (i == 0) {
       ans = nums2[j - 1];
     } else if (j == 0) {
@@ -36,9 +36,10 @@ class Solution {
       } else {
         ans += min(nums1[i], nums2[j]);
       }
-      ans /= 2.0f;
+    } else {
+      ans += ans;
     }
-    return ans;
+    return ans / 2.0f;
   }
 };
 

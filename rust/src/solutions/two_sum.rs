@@ -26,7 +26,7 @@ mod tests {
         let nums = vec![2, 7, 11, 15];
         let target = 9;
         let ans = vec![0, 1];
-        assert_eq!(ans, Solution::two_sum(nums, target));
+        assert_eq!(Solution::two_sum(nums, target), ans);
     }
 
     #[test]
@@ -34,7 +34,7 @@ mod tests {
         let nums = vec![3, 2, 4];
         let target = 6;
         let ans = vec![1, 2];
-        assert_eq!(ans, Solution::two_sum(nums, target));
+        assert_eq!(Solution::two_sum(nums, target), ans);
     }
 
     #[test]
@@ -42,6 +42,6 @@ mod tests {
         let nums = vec![3, 3];
         let target = 6;
         let ans = vec![0, 1];
-        assert_eq!(ans, Solution::two_sum(nums, target));
+        assert_eq!(Solution::two_sum(nums, target), ans);
     }
 }

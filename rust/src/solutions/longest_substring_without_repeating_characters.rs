@@ -4,9 +4,9 @@ use super::Solution;
 
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
-        let mut letter= [0; 128];
+        let mut letter = [0; 128];
         let mut l = 0;
-        let mut ans= 0;
+        let mut ans = 0;
         for (r, ch) in s.chars().enumerate() {
             l = std::cmp::max(l, letter[ch as usize]);
             ans = std::cmp::max(ans, r - l + 1);

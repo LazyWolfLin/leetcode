@@ -6,7 +6,8 @@
 class Solution {
  public:
   string longestPalindrome(string s) {
-    string t = "$#" + string(s.size() * 2, '#') + "!";
+    string t = string(s.size() * 2 + 3, '#');
+    t.front() = '$', t.back() = '!';
     for (int i = 0; i < s.size(); i++) {
       t[i * 2 + 2] = s[i];
     }

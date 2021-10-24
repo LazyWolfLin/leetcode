@@ -9,13 +9,9 @@ impl Solution {
         } else {
             (nums1, nums2)
         };
-        let m = nums1.len();
-        let n = nums2.len();
+        let (m, n) = (nums1.len(), nums2.len());
         let half = (m + n + 1) / 2;
-        let mut l = 0;
-        let mut r = m + 1;
-        let mut i = 0;
-        let mut j = 0;
+        let (mut l, mut r, mut i, mut j) = (0, m + 1, 0, 0);
         while l < r {
             i = (l + r) / 2;
             j = half - i;
@@ -42,7 +38,7 @@ impl Solution {
             } else {
                 ans += std::cmp::min(nums1[i], nums2[j]);
             }
-        }else{
+        } else {
             ans += ans;
         }
         ans as f64 / 2f64

@@ -10,7 +10,7 @@ impl Solution {
     ) -> Option<Box<ListNode>> {
         let mut head = Box::new(ListNode::new(0));
         let mut tail = &mut head;
-        let (mut l1, mut l2) = (l1.clone(), l2.clone());
+        let (mut l1, mut l2) = (l1, l2);
         let mut val: i32 = 0;
         while l1.is_some() || l2.is_some() || val > 0 {
             if let Some(node) = l1 {

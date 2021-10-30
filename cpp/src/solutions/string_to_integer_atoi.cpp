@@ -16,18 +16,17 @@ class Solution {
     }
     long long ans = 0;
     while (i < str.size()) {
-      if (isdigit(str[i])) {
-        auto bit = str[i] - '0';
-        if (!positive) bit = -bit;
-        ans = ans * 10 + bit;
-        if (ans > numeric_limits<int>::max()) {
-          ans = numeric_limits<int>::max();
-        }
-        if (ans < numeric_limits<int>::min()) {
-          ans = numeric_limits<int>::min();
-        }
-      } else {
+      auto ch = str[i];
+      if (!isdigit(ch)) {
         break;
+      }
+      auto bit = positive ? ch - '0' : '0' - ch;
+      ans = ans * 10 + bit;
+      if (ans > numeric_limits<int>::max()) {
+        ans = numeric_limits<int>::max();
+      }
+      if (ans < numeric_limits<int>::min()) {
+        ans = numeric_limits<int>::min();
       }
       i++;
     }

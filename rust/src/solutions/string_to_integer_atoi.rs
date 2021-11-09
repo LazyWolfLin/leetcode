@@ -4,33 +4,33 @@ use super::Solution;
 
 impl Solution {
     pub fn my_atoi(s: String) -> i32 {
-        let mut chars = s.trim_start().chars().peekable();
+        let mut chars = s.trim_start().bytes().peekable();
         let positive = match chars.peek() {
-            Some('+') => {
+            Some(b'+') => {
                 chars.next();
                 true
             }
-            Some('-') => {
+            Some(b'-') => {
                 chars.next();
                 false
             }
             _ => true,
         };
-        let mut ans: i64 = 0;
+        let mut ans:i32 = 0;
         for ch in chars {
-            ans = match ch.to_digit(10) {
-                Some(bit) if positive => ans * 10 + bit as i64,
-                Some(d) => ans * 10 - d as i64,
-                _ => break,
-            };
-            if ans > i32::MAX.into() {
-                ans = i32::MAX as i64;
-            }
-            if ans < i32::MIN.into() {
-                ans = i32::MIN as i64;
-            }
+            if ch.is_ascii_digit(){
+                let bit = ch - b'0';
+                ans = ans.saturating_mul(10);
+                ans = if positive {
+                    ans.saturating_add(bit.into())
+                }else{
+                    ans.saturating_sub(bit.into())
+                };
+            }else{
+                break
+            } 
         }
-        ans as i32
+        ans
     }
 }
 

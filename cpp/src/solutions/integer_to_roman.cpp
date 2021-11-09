@@ -11,9 +11,9 @@ class Solution {
         {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},
         {"", "M", "MM", "MMM", "", "", "", "", "", ""}};
     string ans;
-    int i = 0;
+    int bit = 0;
     while (num) {
-      ans = table[i++][num % 10] + ans;
+      ans = table[bit++][num % 10] + ans;
       num = num / 10;
     }
     return ans;

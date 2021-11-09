@@ -7,10 +7,12 @@ class Solution {
   int maxArea(vector<int>& height) {
     int l = 0, r = height.size() - 1, ans = 0;
     while (l < r) {
-      ans = max(ans, (r - l) * min(height[l], height[r]));
-      if (height[l] < height[r]) {
+      auto low = min(height[l], height[r]);
+      ans = max(ans, (r - l) * low);
+      while (l < r && height[l] <= low) {
         l++;
-      } else {
+      }
+      while (l < r && height[r] <= low) {
         r--;
       }
     }

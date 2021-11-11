@@ -10,13 +10,15 @@ class Solution {
         {'C', 100}, {'D', 500}, {'M', 1000},
     };
 
-    int ans = 0;
-    for (int i = 0; i < s.size(); i++) {
-      if (value_map[s[i]] < value_map[s[i + 1]]) {
-        ans -= value_map[s[i]];
+    int ans = 0, last = 0;
+    for (auto iter = s.rbegin(); iter != s.rend(); ++iter) {
+      auto curr = value_map[*iter];
+      if (curr < last) {
+        ans -= curr;
       } else {
-        ans += value_map[s[i]];
+        ans += curr;
       }
+      last = curr;
     }
     return ans;
   }

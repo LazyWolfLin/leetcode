@@ -1,7 +1,5 @@
 // LeetCode 10. Regular Expression Matching in Rust
 
-use std::vec;
-
 use super::Solution;
 
 impl Solution {

@@ -13,3 +13,4 @@ pub mod roman_to_integer;
 pub mod string_to_integer_atoi;
 pub mod two_sum;
 pub mod zigzag_conversion;
+pub mod longest_common_prefix;

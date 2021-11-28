@@ -10,10 +10,10 @@ cpp:
 	cd cpp && make test
 
 go:
-	cd go && make
+	cd go && make test
 
 python:
-	cd python && make
+	cd python && make test
 
 rust:
 	cd rust && cargo test

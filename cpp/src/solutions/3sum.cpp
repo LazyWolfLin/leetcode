@@ -8,19 +8,19 @@ class Solution {
     sort(nums.begin(), nums.end());
     vector<vector<int>> ans;
     for (auto i = 0; i < nums.size(); i++) {
-      if ((i > 0) && (nums[i] == nums[i - 1])) continue;
+      auto x = nums[i];
+      if ((i > 0) && (x == nums[i - 1])) continue;
       for (int j = i + 1, k = nums.size() - 1; j < k;) {
-        if (nums[i] + nums[j] + nums[k] == 0) {
-          ans.push_back({nums[i], nums[j], nums[k]});
-          j++;
-          k--;
-          while ((j < k) && (nums[j] == nums[j - 1])) {
+        auto y = nums[j], z = nums[k];
+        if (-x == y + z) {
+          ans.push_back({x, y, z});
+          while ((j < k) && (y == nums[j])) {
             j++;
           }
-          while ((j < k) && (nums[k] == nums[k + 1])) {
+          while ((j < k) && (z == nums[k])) {
             k--;
           }
-        } else if (nums[i] + nums[j] + nums[k] > 0) {
+        } else if (-x < y + z) {
           k--;
         } else {
           j++;

@@ -5,20 +5,22 @@
 class Solution {
  public:
   vector<string> letterCombinations(string digits) {
-    static string letter[10] = {"",    "",    "abc",  "def", "ghi",
+    const string letters[10] = {"",    "",    "abc",  "def", "ghi",
                                 "jkl", "mno", "pqrs", "tuv", "wxyz"};
     vector<string> ans;
-    if (digits.length() > 0) {
-      vector<string> tmp = letterCombinations(digits.substr(1));
-      if (tmp.size() == 0) {
-        tmp = {""};
-      }
-      auto& letters = letter[digits[0] - '0'];
-      for (auto i = 0; i < letters.size(); i++) {
-        for (auto j = 0; j < tmp.size(); j++) {
-          ans.push_back(letters[i] + tmp[j]);
+    if (digits.size() == 0) {
+      return ans;
+    }
+    ans = {""};
+    for (auto digit : digits) {
+      vector<string> tmp;
+      auto& letter = letters[digit - '0'];
+      for (auto& str : ans) {
+        for (auto ch : letter) {
+          tmp.push_back(str + ch);
         }
       }
+      ans = tmp;
     }
     return ans;
   }

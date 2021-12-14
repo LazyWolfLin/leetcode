@@ -2,6 +2,7 @@ pub struct Solution;
 
 pub mod add_two_numbers;
 pub mod container_with_most_water;
+pub mod four_sum;
 pub mod integer_to_roman;
 pub mod letter_combinations_of_a_phone_number;
 pub mod longest_common_prefix;

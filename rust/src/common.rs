@@ -1,3 +1,5 @@
+use std::borrow::Borrow;
+
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
     pub val: i32,
@@ -13,27 +15,27 @@ impl ListNode {
 
 #[allow(dead_code)]
 pub fn list_create(list: &[i32]) -> Option<Box<ListNode>> {
-    let head = Box::new(ListNode::new(0));
-    let mut tail = head.clone();
+    let mut head = Box::new(ListNode::new(0));
+    let mut tail = head.as_mut();
     for val in list {
-        tail = list_insert(&mut tail, val);
+        list_insert( tail, val);
+        tail = tail.next.as_mut().unwrap();
     }
     head.next
 }
 
 #[allow(dead_code)]
-pub fn list_insert(node: &mut Box<ListNode>, val: &i32) -> Box<ListNode> {
-    let mut new_node = Box::new(ListNode::new(*val));
-    new_node.next = node.next.clone();
-    node.next = Some(new_node.clone());
-    new_node
+pub fn list_insert(node: &mut ListNode, val: &i32) {
+    node.next = Some(Box::new(ListNode::new(*val)));
 }
 
 #[allow(dead_code)]
-pub fn list_equal(mut lhs: Option<Box<ListNode>>, mut rhs: Option<Box<ListNode>>) -> bool {
+pub fn list_equal(lhs: &Option<Box<ListNode>>, rhs: &Option<Box<ListNode>>) -> bool {
+    // let mut lhs = lhs.as_ref().unwrap();
+    let (mut lhs, mut rhs) = (lhs,rhs);
     while lhs.is_some() && rhs.is_some() && lhs.as_ref().unwrap().val == rhs.as_ref().unwrap().val {
-        lhs = lhs.unwrap().next;
-        rhs = rhs.unwrap().next;
+        lhs = lhs.as_ref().unwrap().next.borrow();
+        rhs = rhs.as_ref().unwrap().next.borrow();
     }
     lhs == rhs
 }

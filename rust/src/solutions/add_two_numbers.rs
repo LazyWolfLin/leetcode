@@ -39,7 +39,7 @@ mod tests {
         let l1 = list_create(&[2, 4, 3]);
         let l2 = list_create(&[5, 6, 4]);
         let ans = list_create(&[7, 0, 8]);
-        assert!(list_equal(Solution::add_two_numbers(l1, l2), ans));
+        assert!(list_equal(&Solution::add_two_numbers(l1, l2), &ans));
     }
 
     #[test]
@@ -47,7 +47,7 @@ mod tests {
         let l1 = list_create(&[0]);
         let l2 = list_create(&[0]);
         let ans = list_create(&[0]);
-        assert!(list_equal(Solution::add_two_numbers(l1, l2), ans));
+        assert!(list_equal(&Solution::add_two_numbers(l1, l2), &ans));
     }
 
     #[test]
@@ -55,6 +55,6 @@ mod tests {
         let l1 = list_create(&[9, 9, 9, 9, 9, 9, 9]);
         let l2 = list_create(&[9, 9, 9, 9]);
         let ans = list_create(&[8, 9, 9, 9, 0, 0, 0, 1]);
-        assert!(list_equal(Solution::add_two_numbers(l1, l2), ans));
+        assert!(list_equal(&Solution::add_two_numbers(l1, l2), &ans));
     }
 }

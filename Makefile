@@ -3,7 +3,7 @@
 all: cpp go python rust
 
 cpp:
-	cd cpp && make test
+	bazel run cpp:solutions_test
 
 go:
 	cd go && make test

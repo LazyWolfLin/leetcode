@@ -1,6 +1,6 @@
 // LeetCode 9. Palindrome Number in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

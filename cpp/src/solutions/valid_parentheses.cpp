@@ -1,6 +1,6 @@
 // LeetCode 20. Valid Parentheses in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

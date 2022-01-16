@@ -1,6 +1,6 @@
 // LeetCode 19. Remove Nth Node From End of List in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 /// Create two pointers.First pointer move n nodes and then two pointers move
 /// together. When the first pointer arrive the end of list, the second pointer

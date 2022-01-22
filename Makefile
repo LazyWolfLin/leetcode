@@ -12,4 +12,4 @@ python:
 	cd python && make test
 
 rust:
-	cd rust && cargo test
+	bazel run rust:solutions_test

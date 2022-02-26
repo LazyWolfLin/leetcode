@@ -6,7 +6,7 @@ cpp:
 	bazel run cpp:solutions_test
 
 go:
-	cd go && make test
+	bazel run go:solutions_test
 
 python:
 	bazel run python:solutions_test

@@ -9,7 +9,7 @@ go:
 	cd go && make test
 
 python:
-	cd python && make test
+	bazel run python:solutions_test
 
 rust:
 	bazel run rust:solutions_test

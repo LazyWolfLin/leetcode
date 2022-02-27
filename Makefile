@@ -1,15 +1,21 @@
-.PHONY: all cpp go python rust
+.PHONY: all clean test cpp go python rust
 
-all: cpp go python rust
+all: clean test
 
-cpp:
-	bazel run cpp:solutions_test
+clean:
+	bazel clean
 
-go:
-	bazel run go:solutions_test
+test:
+	bazel test ...
 
-python:
-	bazel run python:solutions_test
+cpp: clean
+	bazel test cpp:solutions_test
 
-rust:
-	bazel run rust:solutions_test
+go: clean
+	bazel test go:solutions_test
+
+python: clean
+	bazel test python:solutions_test
+
+rust: clean
+	bazel test rust:solutions_test

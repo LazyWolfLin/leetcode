@@ -1,6 +1,6 @@
 // LeetCode 8. String to Integer (atoi) in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

@@ -1,6 +1,6 @@
 // LeetCode 6. ZigZag Conversion in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

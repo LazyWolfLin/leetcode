@@ -1,6 +1,6 @@
 // LeetCode 7. Reverse Integer in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

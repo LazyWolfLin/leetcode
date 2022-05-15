@@ -1,6 +1,6 @@
 // LeetCode 18. 4Sum in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

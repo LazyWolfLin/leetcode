@@ -1,6 +1,6 @@
 // LeetCode 21. Merge Two Sorted Lists in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

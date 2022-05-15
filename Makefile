@@ -1,19 +1,21 @@
-.PHONY: all init cpp go python rust
+.PHONY: all clean test cpp go python rust
 
-all: cpp go python rust
+all: clean test
 
-init:
-	git submodule init
-	git submodule update
+clean:
+	bazel clean
 
-cpp:
-	cd cpp && make test
+test:
+	bazel test ...
 
-go:
-	cd go && make test
+cpp: clean
+	bazel test cpp:solutions_test
 
-python:
-	cd python && make test
+go: clean
+	bazel test go:solutions_test
 
-rust:
-	cd rust && cargo test
+python: clean
+	bazel test python:solutions_test
+
+rust: clean
+	bazel test rust:solutions_test

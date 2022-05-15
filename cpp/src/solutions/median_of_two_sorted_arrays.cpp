@@ -1,6 +1,6 @@
 // LeetCode 4. Median of Two Sorted Arrays in C++
 
-#include "common.h"
+#include "cpp/src/common/common.h"
 
 class Solution {
  public:

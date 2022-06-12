@@ -12,11 +12,11 @@ impl Solution {
             return ans;
         }
         ans.push(String::from(""));
-        for digit in digits.as_bytes(){
+        for digit in digits.as_bytes() {
             let mut tmp = Vec::new();
             let letter = letters[(digit - b'0') as usize];
-            for string in &ans{
-                for ch in letter.chars(){
+            for string in &ans {
+                for ch in letter.chars() {
                     tmp.push(string.to_owned() + &ch.to_string());
                 }
             }
@@ -33,7 +33,17 @@ mod tests {
     #[test]
     fn example1() {
         let digits = String::from("23");
-        let ans: Vec<String> = vec!["ad".to_string(), "ae".to_string(), "af".to_string(), "bd".to_string(), "be".to_string(), "bf".to_string(), "cd".to_string(), "ce".to_string(), "cf".to_string()];
+        let ans: Vec<String> = vec![
+            "ad".to_string(),
+            "ae".to_string(),
+            "af".to_string(),
+            "bd".to_string(),
+            "be".to_string(),
+            "bf".to_string(),
+            "cd".to_string(),
+            "ce".to_string(),
+            "cf".to_string(),
+        ];
         assert_eq!(Solution::letter_combinations(digits), ans);
     }
 

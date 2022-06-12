@@ -6,7 +6,7 @@ use super::Solution;
 impl Solution {
     pub fn longest_palindrome(s: String) -> String {
         let mut t = vec!['#'; s.len() * 2 + 3];
-        *t.first_mut().unwrap()= '$';
+        *t.first_mut().unwrap() = '$';
         for (i, ch) in s.chars().enumerate() {
             t[2 * i + 2] = ch;
         }

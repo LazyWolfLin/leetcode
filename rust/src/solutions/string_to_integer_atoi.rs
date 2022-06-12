@@ -16,19 +16,19 @@ impl Solution {
             }
             _ => true,
         };
-        let mut ans:i32 = 0;
+        let mut ans: i32 = 0;
         for ch in chars {
-            if ch.is_ascii_digit(){
+            if ch.is_ascii_digit() {
                 let bit = ch - b'0';
                 ans = ans.saturating_mul(10);
                 ans = if positive {
                     ans.saturating_add(bit.into())
-                }else{
+                } else {
                     ans.saturating_sub(bit.into())
                 };
-            }else{
-                break
-            } 
+            } else {
+                break;
+            }
         }
         ans
     }

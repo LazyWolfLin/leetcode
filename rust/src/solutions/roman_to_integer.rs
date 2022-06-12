@@ -18,7 +18,7 @@ impl Solution {
         .collect();
 
         let mut ans = 0;
-        let mut last= 0;
+        let mut last = 0;
         for ch in s.chars().rev() {
             let curr = value_map[&ch];
             if curr < last {

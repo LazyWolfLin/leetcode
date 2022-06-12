@@ -15,7 +15,7 @@ impl Solution {
             while j < k {
                 let (x, y, z) = (nums[i], nums[j], nums[k]);
                 match x + y + z {
-                    i32::MIN..=-1i32=> j += 1,
+                    i32::MIN..=-1i32 => j += 1,
                     0 => {
                         ans.push(vec![x, y, z]);
                         while j < k && y == nums[j] {

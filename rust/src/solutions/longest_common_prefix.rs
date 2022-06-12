@@ -9,10 +9,10 @@ impl Solution {
         }
 
         let mut ans = String::new();
-        for ch in strs[0].chars(){
+        for ch in strs[0].chars() {
             for str in &strs {
-                if ch != str.chars().nth(ans.len()).unwrap_or_default(){
-                    return ans
+                if ch != str.chars().nth(ans.len()).unwrap_or_default() {
+                    return ans;
                 }
             }
             ans.push(ch)

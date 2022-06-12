@@ -18,7 +18,7 @@ pub fn list_create(list: &[i32]) -> Option<Box<ListNode>> {
     let mut head = Box::new(ListNode::new(0));
     let mut tail = head.as_mut();
     for val in list {
-        list_insert( tail, val);
+        list_insert(tail, val);
         tail = tail.next.as_mut().unwrap();
     }
     head.next
@@ -31,8 +31,7 @@ pub fn list_insert(node: &mut ListNode, val: &i32) {
 
 #[allow(dead_code)]
 pub fn list_equal(lhs: &Option<Box<ListNode>>, rhs: &Option<Box<ListNode>>) -> bool {
-    // let mut lhs = lhs.as_ref().unwrap();
-    let (mut lhs, mut rhs) = (lhs,rhs);
+    let (mut lhs, mut rhs) = (lhs, rhs);
     while lhs.is_some() && rhs.is_some() && lhs.as_ref().unwrap().val == rhs.as_ref().unwrap().val {
         lhs = lhs.as_ref().unwrap().next.borrow();
         rhs = rhs.as_ref().unwrap().next.borrow();

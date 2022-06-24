@@ -1,6 +1,7 @@
 pub struct Solution;
 
 pub mod add_two_numbers;
+pub mod binary_search;
 pub mod container_with_most_water;
 pub mod four_sum;
 pub mod integer_to_roman;

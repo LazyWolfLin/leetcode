@@ -13,6 +13,7 @@ pub mod median_of_two_sorted_arrays;
 pub mod merge_two_sorted_lists;
 pub mod palindrome_number;
 pub mod regular_expression_matching;
+pub mod remove_element;
 pub mod remove_nth_node_from_end_of_list;
 pub mod reverse_integer;
 pub mod roman_to_integer;

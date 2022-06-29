@@ -17,6 +17,7 @@ pub mod remove_element;
 pub mod remove_nth_node_from_end_of_list;
 pub mod reverse_integer;
 pub mod roman_to_integer;
+pub mod squares_of_a_sorted_array;
 pub mod string_to_integer_atoi;
 pub mod three_sum;
 pub mod three_sum_closest;

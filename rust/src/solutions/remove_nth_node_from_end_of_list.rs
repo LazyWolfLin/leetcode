@@ -9,9 +9,9 @@ use crate::common::ListNode;
 
 impl Solution {
     pub fn remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
-        let mut ptr = Box::new(ListNode::new(0));
-        ptr.next = head;
-        let (mut fast, mut slow) = (ptr.clone(), ptr.as_mut());
+        let mut dummy = Box::new(ListNode::new(0));
+        dummy.next = head;
+        let (mut fast, mut slow) = (dummy.clone(), &mut dummy);
         for _ in 0..n {
             if fast.next.is_some() {
                 fast = fast.next.unwrap();
@@ -22,10 +22,10 @@ impl Solution {
             slow = slow.next.as_mut().unwrap();
         }
         if slow.next.is_some() {
-            let tmp = slow.next.clone().unwrap();
-            slow.next = tmp.next.clone();
+            slow.next = slow.next.as_mut().unwrap().next.take();
+
         }
-        ptr.next
+        dummy.next
     }
 }
 

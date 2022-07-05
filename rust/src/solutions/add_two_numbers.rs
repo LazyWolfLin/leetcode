@@ -8,7 +8,7 @@ impl Solution {
         l1: Option<Box<ListNode>>,
         l2: Option<Box<ListNode>>,
     ) -> Option<Box<ListNode>> {
-        let mut head = Box::new(ListNode::new(0));
+        let mut head = None;
         let mut tail = &mut head;
         let (mut l1, mut l2) = (l1, l2);
         let mut val: i32 = 0;
@@ -21,11 +21,10 @@ impl Solution {
                 val += node.val;
                 l2 = node.next;
             }
-            tail.next = Some(Box::new(ListNode::new(val % 10)));
-            tail = tail.next.as_mut().unwrap();
+            tail = &mut tail.insert(Box::new(ListNode::new(val % 10))).next;
             val /= 10;
         }
-        head.next
+        head
     }
 }
 

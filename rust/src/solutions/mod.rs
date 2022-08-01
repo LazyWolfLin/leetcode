@@ -15,6 +15,7 @@ pub mod minimum_size_subarray_sum;
 pub mod palindrome_number;
 pub mod regular_expression_matching;
 pub mod remove_element;
+pub mod remove_linked_list_elements;
 pub mod remove_nth_node_from_end_of_list;
 pub mod reverse_integer;
 pub mod roman_to_integer;

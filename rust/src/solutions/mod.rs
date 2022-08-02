@@ -18,6 +18,7 @@ pub mod remove_element;
 pub mod remove_linked_list_elements;
 pub mod remove_nth_node_from_end_of_list;
 pub mod reverse_integer;
+pub mod reverse_linked_list;
 pub mod roman_to_integer;
 pub mod squares_of_a_sorted_array;
 pub mod string_to_integer_atoi;

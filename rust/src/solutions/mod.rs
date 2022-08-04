@@ -25,5 +25,6 @@ pub mod string_to_integer_atoi;
 pub mod three_sum;
 pub mod three_sum_closest;
 pub mod two_sum;
+pub mod valid_anagram;
 pub mod valid_parentheses;
 pub mod zigzag_conversion;

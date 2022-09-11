@@ -15,6 +15,7 @@ pub mod median_of_two_sorted_arrays;
 pub mod merge_two_sorted_lists;
 pub mod minimum_size_subarray_sum;
 pub mod palindrome_number;
+pub mod ransom_note;
 pub mod regular_expression_matching;
 pub mod remove_element;
 pub mod remove_linked_list_elements;

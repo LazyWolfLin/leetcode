@@ -1,10 +1,10 @@
 cc_library(
     name = "solutions",
+    srcs = glob(["src/solutions/*.cpp"]),
     deps = [
         ":common",
         "@com_google_googletest//:gtest_main",
     ],
-    srcs = glob(["src/solutions/*.cpp"]),
 )
 
 cc_library(

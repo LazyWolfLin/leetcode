@@ -6,10 +6,12 @@ rust_library(
         "src/lib.rs",
         "src/common.rs",
     ] + glob(["src/solutions/*.rs"]),
+    edition = "2021",
 )
 
 rust_test(
     name = "solutions_test",
     crate = ":solutions",
+    edition = "2021",
     deps = [":solutions"],
 )

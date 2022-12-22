@@ -1,7 +1,7 @@
 py_library(
     name = "solutions",
-    deps = [":common"],
     srcs = glob(["src/solutions/*.py"]),
+    deps = [":common"],
 )
 
 py_library(
@@ -11,7 +11,7 @@ py_library(
 
 py_test(
     name = "solutions_test",
-    deps = [":solutions"],
     srcs = ["src/unittest_runner.py"],
     main = "unittest_runner.py",
+    deps = [":solutions"],
 )

@@ -1,4 +1,4 @@
-# LeetCode 5. Longest Palindromic Substring in Python
+# LeetCode 5. Longest Palindromic Substring
 # Manacher Algorithms
 
 

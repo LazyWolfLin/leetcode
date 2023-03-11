@@ -1,4 +1,4 @@
-// LeetCode 1. Two Sum in Rust
+// LeetCode 1. Two Sum
 
 use super::Solution;
 

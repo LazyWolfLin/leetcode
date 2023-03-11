@@ -1,4 +1,4 @@
-// LeetCode 19. Remove Nth Node From End of List in Rust
+// LeetCode 19. Remove Nth Node From End of List
 
 use super::Solution;
 use crate::common::ListNode;
@@ -23,7 +23,6 @@ impl Solution {
         }
         if slow.next.is_some() {
             slow.next = slow.next.as_mut().unwrap().next.take();
-
         }
         dummy.next
     }

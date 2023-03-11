@@ -1,4 +1,4 @@
-// LeetCode 27. Remove Element in Rust
+// LeetCode 27. Remove Element
 
 use super::Solution;
 

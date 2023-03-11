@@ -1,4 +1,4 @@
-// LeetCode 10. Regular Expression Matching in Rust
+// LeetCode 10. Regular Expression Matching
 
 use super::Solution;
 

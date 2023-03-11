@@ -1,4 +1,4 @@
-// LeetCode 18. 4Sum in Rust
+// LeetCode 18. 4Sum
 
 use super::Solution;
 

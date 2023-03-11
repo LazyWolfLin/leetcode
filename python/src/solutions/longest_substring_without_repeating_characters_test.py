@@ -1,4 +1,4 @@
-# LeetCode 3. Longest Substring Without Repeating Characters in Python
+# LeetCode 3. Longest Substring Without Repeating Characters
 
 import unittest
 

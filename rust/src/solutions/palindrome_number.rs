@@ -1,4 +1,4 @@
-// LeetCode 9. Palindrome Number in Rust
+// LeetCode 9. Palindrome Number
 
 use super::Solution;
 

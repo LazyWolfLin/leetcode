@@ -1,4 +1,4 @@
-# LeetCode 10. Regular Expression Matching in Python
+# LeetCode 10. Regular Expression Matching
 
 import unittest
 

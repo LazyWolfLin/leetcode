@@ -1,4 +1,4 @@
-// LeetCode 2. Add Two Numbers in C++
+// LeetCode 2. Add Two Numbers
 
 #include "cpp/src/common/common.h"
 

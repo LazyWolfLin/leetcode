@@ -1,4 +1,4 @@
-// LeetCode 20. Valid Parentheses in Rust
+// LeetCode 20. Valid Parentheses
 
 use super::Solution;
 

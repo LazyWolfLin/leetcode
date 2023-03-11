@@ -1,4 +1,4 @@
-// LeetCode 8. String to Integer (atoi) in C++
+// LeetCode 8. String to Integer (atoi)
 
 #include "cpp/src/common/common.h"
 

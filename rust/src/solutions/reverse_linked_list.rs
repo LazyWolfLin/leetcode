@@ -1,4 +1,4 @@
-// LeetCode 206. Reverse Linked List in Rust
+// LeetCode 206. Reverse Linked List
 
 use super::Solution;
 use crate::common::ListNode;

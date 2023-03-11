@@ -1,4 +1,4 @@
-// LeetCode 6. ZigZag Conversion in Rust
+// LeetCode 6. ZigZag Conversion
 
 use super::Solution;
 

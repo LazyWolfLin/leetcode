@@ -1,4 +1,4 @@
-// LeetCode 9. Palindrome Number in C++
+// LeetCode 9. Palindrome Number
 
 #include "cpp/src/common/common.h"
 

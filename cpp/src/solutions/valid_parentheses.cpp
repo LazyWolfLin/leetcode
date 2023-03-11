@@ -1,4 +1,4 @@
-// LeetCode 20. Valid Parentheses in C++
+// LeetCode 20. Valid Parentheses
 
 #include "cpp/src/common/common.h"
 

@@ -1,4 +1,4 @@
-// LeetCode 13. Roman to Integer in Rust
+// LeetCode 13. Roman to Integer
 
 use super::Solution;
 use std::collections::HashMap;

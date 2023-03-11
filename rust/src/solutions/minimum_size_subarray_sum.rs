@@ -1,4 +1,4 @@
-// LeetCode 209. Minimum Size Subarray Sum in Rust
+// LeetCode 209. Minimum Size Subarray Sum
 
 use super::Solution;
 

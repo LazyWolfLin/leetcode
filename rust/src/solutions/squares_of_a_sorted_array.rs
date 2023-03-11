@@ -1,4 +1,4 @@
-// LeetCode 977. Squares of a Sorted Array in Rust
+// LeetCode 977. Squares of a Sorted Array
 
 use super::Solution;
 

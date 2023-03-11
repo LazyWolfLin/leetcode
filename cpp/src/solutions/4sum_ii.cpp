@@ -1,4 +1,4 @@
-// LeetCode 454. 4Sum II in C++
+// LeetCode 454. 4Sum II
 
 #include "cpp/src/common/common.h"
 

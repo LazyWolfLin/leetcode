@@ -1,4 +1,4 @@
-# LeetCode 1. Two Sum in Python
+# LeetCode 1. Two Sum
 
 import unittest
 from typing import List

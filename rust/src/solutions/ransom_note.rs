@@ -1,4 +1,4 @@
-// LeetCode 383. Ransom Note in Rust
+// LeetCode 383. Ransom Note
 
 use super::Solution;
 

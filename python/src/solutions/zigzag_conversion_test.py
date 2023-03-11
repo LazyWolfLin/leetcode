@@ -1,4 +1,4 @@
-# LeetCode 6. ZigZag Conversion in Python
+# LeetCode 6. ZigZag Conversion
 
 import unittest
 

@@ -1,4 +1,4 @@
-# LeetCode 9. Palindrome Number in Python
+# LeetCode 9. Palindrome Number
 
 import unittest
 

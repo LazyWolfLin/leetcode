@@ -1,4 +1,4 @@
-// LeetCode 17. Letter Combinations of a Phone Number in Rust
+// LeetCode 17. Letter Combinations of a Phone Number
 
 use super::Solution;
 

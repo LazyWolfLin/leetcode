@@ -1,4 +1,4 @@
-# LeetCode 8. String to Integer (atoi) in Python
+# LeetCode 8. String to Integer (atoi)
 
 import unittest
 

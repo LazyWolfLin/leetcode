@@ -1,4 +1,4 @@
-// LeetCode 203. Remove Linked List Elements in Rust
+// LeetCode 203. Remove Linked List Elements
 
 use super::Solution;
 use crate::common::ListNode;

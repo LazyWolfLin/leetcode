@@ -1,4 +1,4 @@
-// LeetCode 454. 4Sum II in rust
+// LeetCode 454. 4Sum II
 
 use super::Solution;
 use std::collections::HashMap;

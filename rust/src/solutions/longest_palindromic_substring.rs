@@ -1,4 +1,4 @@
-// LeetCode 5. Longest Palindromic Substring in Rust
+// LeetCode 5. Longest Palindromic Substring
 // Manacher Algorithms
 
 use super::Solution;

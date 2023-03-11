@@ -1,4 +1,4 @@
-// LeetCode 206. Reverse Linked List in C++
+// LeetCode 206. Reverse Linked List
 
 #include "cpp/src/common/common.h"
 

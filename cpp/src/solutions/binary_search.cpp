@@ -1,4 +1,4 @@
-// LeetCode 704. Binary Search in C++
+// LeetCode 704. Binary Search
 
 #include "cpp/src/common/common.h"
 

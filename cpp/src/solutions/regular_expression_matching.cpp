@@ -1,4 +1,4 @@
-// LeetCode 10. Regular Expression Matching in C++
+// LeetCode 10. Regular Expression Matching
 
 #include "cpp/src/common/common.h"
 

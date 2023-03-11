@@ -1,4 +1,4 @@
-// LeetCode 12. Integer to Roman in Rust
+// LeetCode 12. Integer to Roman
 
 use super::Solution;
 

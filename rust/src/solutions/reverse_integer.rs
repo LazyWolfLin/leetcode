@@ -1,4 +1,4 @@
-// LeetCode 7. Reverse Integer in Rust
+// LeetCode 7. Reverse Integer
 
 use super::Solution;
 

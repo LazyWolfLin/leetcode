@@ -1,4 +1,4 @@
-# LeetCode 2. Add Two Numbers in Python
+# LeetCode 2. Add Two Numbers
 
 import unittest
 from typing import Optional

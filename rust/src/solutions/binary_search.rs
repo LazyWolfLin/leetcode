@@ -1,4 +1,4 @@
-// LeetCode 704. Binary Search in Rust
+// LeetCode 704. Binary Search
 
 use super::Solution;
 

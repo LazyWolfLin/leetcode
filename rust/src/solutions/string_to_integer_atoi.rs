@@ -1,4 +1,4 @@
-// LeetCode 8. String to Integer (atoi) in Rust
+// LeetCode 8. String to Integer (atoi)
 
 use super::Solution;
 

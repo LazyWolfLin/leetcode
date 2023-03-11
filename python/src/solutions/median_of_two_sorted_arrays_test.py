@@ -1,4 +1,4 @@
-# LeetCode 4. Median of Two Sorted Arrays in Python
+# LeetCode 4. Median of Two Sorted Arrays
 
 import unittest
 from typing import List

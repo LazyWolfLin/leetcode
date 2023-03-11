@@ -1,4 +1,4 @@
-// LeetCode 4. Median of Two Sorted Arrays in C++
+// LeetCode 4. Median of Two Sorted Arrays
 
 #include "cpp/src/common/common.h"
 

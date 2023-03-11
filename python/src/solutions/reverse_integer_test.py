@@ -1,4 +1,4 @@
-# LeetCode 7. Reverse Integer in Python
+# LeetCode 7. Reverse Integer
 
 import unittest
 

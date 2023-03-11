@@ -1,4 +1,4 @@
-// LeetCode 2. Add Two Numbers in Rust
+// LeetCode 2. Add Two Numbers
 
 use super::Solution;
 use crate::common::ListNode;

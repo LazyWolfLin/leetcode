@@ -1,4 +1,4 @@
-// LeetCode 16. 3Sum Closest in C++
+// LeetCode 16. 3Sum Closest
 
 #include "cpp/src/common/common.h"
 

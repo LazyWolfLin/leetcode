@@ -1,4 +1,4 @@
-// LeetCode 383. Ransom Note in C++
+// LeetCode 383. Ransom Note
 
 #include "cpp/src/common/common.h"
 

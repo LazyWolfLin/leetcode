@@ -1,4 +1,4 @@
-// LeetCode 977. Squares of a Sorted Array in C++
+// LeetCode 977. Squares of a Sorted Array
 
 #include "cpp/src/common/common.h"
 

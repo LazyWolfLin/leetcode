@@ -1,4 +1,4 @@
-// LeetCode 11. Container With Most Water in Rust
+// LeetCode 11. Container With Most Water
 
 use super::Solution;
 

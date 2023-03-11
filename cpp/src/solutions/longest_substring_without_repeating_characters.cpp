@@ -1,4 +1,4 @@
-// LeetCode 3. Longest Substring Without Repeating Characters in C++
+// LeetCode 3. Longest Substring Without Repeating Characters
 
 #include "cpp/src/common/common.h"
 

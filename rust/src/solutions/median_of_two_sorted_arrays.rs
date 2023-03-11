@@ -1,4 +1,4 @@
-// LeetCode 4. Median of Two Sorted Arrays in Rust
+// LeetCode 4. Median of Two Sorted Arrays
 
 use super::Solution;
 

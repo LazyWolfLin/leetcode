@@ -1,4 +1,4 @@
-// LeetCode 242. Valid Anagram in C++
+// LeetCode 242. Valid Anagram
 
 #include "cpp/src/common/common.h"
 

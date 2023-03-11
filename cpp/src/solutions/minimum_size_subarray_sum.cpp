@@ -1,4 +1,4 @@
-// LeetCode 209. Minimum Size Subarray Sum in C++
+// LeetCode 209. Minimum Size Subarray Sum
 
 #include "cpp/src/common/common.h"
 

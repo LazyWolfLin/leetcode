@@ -1,4 +1,4 @@
-// LeetCode 6. ZigZag Conversion in C++
+// LeetCode 6. ZigZag Conversion
 
 #include "cpp/src/common/common.h"
 

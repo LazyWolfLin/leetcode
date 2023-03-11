@@ -1,4 +1,4 @@
-// LeetCode 21. Merge Two Sorted Lists in Rust
+// LeetCode 21. Merge Two Sorted Lists
 
 use super::Solution;
 use crate::common::ListNode;

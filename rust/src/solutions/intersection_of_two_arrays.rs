@@ -1,4 +1,4 @@
-// LeetCode 349. Intersection of Two Arrays in Rust
+// LeetCode 349. Intersection of Two Arrays
 
 use super::Solution;
 use std::collections::HashSet;

@@ -1,4 +1,4 @@
-// LeetCode 2. Add Two Numbers in Go
+// LeetCode 2. Add Two Numbers
 
 package solutions
 

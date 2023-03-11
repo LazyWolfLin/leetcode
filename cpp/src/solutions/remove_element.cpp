@@ -1,4 +1,4 @@
-// LeetCode 27. Remove Element in C++
+// LeetCode 27. Remove Element
 
 #include "cpp/src/common/common.h"
 

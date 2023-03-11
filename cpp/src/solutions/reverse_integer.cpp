@@ -1,4 +1,4 @@
-// LeetCode 7. Reverse Integer in C++
+// LeetCode 7. Reverse Integer
 
 #include "cpp/src/common/common.h"
 

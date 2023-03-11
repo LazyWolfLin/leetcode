@@ -1,4 +1,4 @@
-// LeetCode 203. Remove Linked List Elements in C++
+// LeetCode 203. Remove Linked List Elements
 
 #include "cpp/src/common/common.h"
 

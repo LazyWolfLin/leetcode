@@ -1,4 +1,4 @@
-// LeetCode 18. 4Sum in C++
+// LeetCode 18. 4Sum
 
 #include "cpp/src/common/common.h"
 
@@ -46,8 +46,8 @@ TEST(fourSum, example1) {
 }
 
 TEST(fourSum, example2) {
-  vector<int> nums = {2,2,2,2};
+  vector<int> nums = {2, 2, 2, 2};
   int target = 8;
-  vector<vector<int>> ans = {{2,2,2,2}};
+  vector<vector<int>> ans = {{2, 2, 2, 2}};
   EXPECT_EQ(Solution().fourSum(nums, target), ans);
 }

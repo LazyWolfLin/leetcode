@@ -1,4 +1,4 @@
-// LeetCode 16. 3Sum Closest in Rust
+// LeetCode 16. 3Sum Closest
 
 use super::Solution;
 

@@ -1,4 +1,4 @@
-// LeetCode 3. Longest Substring Without Repeating Characters in Rust
+// LeetCode 3. Longest Substring Without Repeating Characters
 
 use super::Solution;
 

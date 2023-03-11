@@ -1,4 +1,4 @@
-// LeetCode 242. Valid Anagram in Rust
+// LeetCode 242. Valid Anagram
 
 use super::Solution;
 

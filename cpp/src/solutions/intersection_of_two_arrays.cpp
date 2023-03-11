@@ -1,4 +1,4 @@
-// LeetCode 349. Intersection of Two Arrays in C++
+// LeetCode 349. Intersection of Two Arrays
 
 #include "cpp/src/common/common.h"
 

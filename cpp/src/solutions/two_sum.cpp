@@ -1,4 +1,4 @@
-// LeetCode 1. Two Sum in C++
+// LeetCode 1. Two Sum
 
 #include "cpp/src/common/common.h"
 

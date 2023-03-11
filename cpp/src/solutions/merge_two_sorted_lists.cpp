@@ -1,4 +1,4 @@
-// LeetCode 21. Merge Two Sorted Lists in C++
+// LeetCode 21. Merge Two Sorted Lists
 
 #include "cpp/src/common/common.h"
 

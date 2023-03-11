@@ -1,4 +1,4 @@
-// LeetCode 15. 3Sum in Rust
+// LeetCode 15. 3Sum
 
 use super::Solution;
 

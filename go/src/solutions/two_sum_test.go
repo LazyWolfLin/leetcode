@@ -1,4 +1,4 @@
-// LeetCode 1. Two Sum in Go
+// LeetCode 1. Two Sum
 
 package solutions
 

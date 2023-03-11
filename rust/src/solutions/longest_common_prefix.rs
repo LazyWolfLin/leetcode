@@ -1,4 +1,4 @@
-// LeetCode 14. Longest Common Prefix in Rust
+// LeetCode 14. Longest Common Prefix
 
 use super::Solution;
 

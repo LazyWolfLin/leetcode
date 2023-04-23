@@ -1,0 +1,14 @@
+{
+    "rust-analyzer.linkedProjects": [
+        {
+            "sysroot_src": "/home/wolf/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library",
+            "crates": [
+                {
+                    "root_module": "rust/src/lib.rs",
+                    "edition": "2021",
+                    "deps": [],
+                },
+            ]
+        }
+    ]
+}

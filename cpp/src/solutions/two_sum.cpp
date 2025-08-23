@@ -1,6 +1,6 @@
 // LeetCode 1. Two Sum
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

@@ -1,6 +1,6 @@
 // LeetCode 10. Regular Expression Matching
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

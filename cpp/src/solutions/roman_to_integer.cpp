@@ -1,6 +1,6 @@
 // LeetCode 13. Roman to Integer
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

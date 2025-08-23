@@ -1,6 +1,6 @@
 // LeetCode 14. Longest Common Prefix
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

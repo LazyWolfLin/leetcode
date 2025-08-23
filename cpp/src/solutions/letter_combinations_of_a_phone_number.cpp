@@ -1,6 +1,6 @@
 // LeetCode 17. Letter Combinations of a Phone Number
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

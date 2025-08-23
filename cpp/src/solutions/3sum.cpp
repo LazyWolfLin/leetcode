@@ -1,6 +1,6 @@
 // LeetCode 15. 3Sum
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

@@ -1,6 +1,6 @@
 // LeetCode 11. Container With Most Water
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

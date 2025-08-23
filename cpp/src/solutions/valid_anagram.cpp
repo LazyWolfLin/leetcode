@@ -1,6 +1,6 @@
 // LeetCode 242. Valid Anagram
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

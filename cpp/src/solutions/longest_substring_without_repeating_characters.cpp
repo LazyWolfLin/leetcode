@@ -1,6 +1,6 @@
 // LeetCode 3. Longest Substring Without Repeating Characters
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

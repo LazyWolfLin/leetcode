@@ -1,6 +1,6 @@
 // LeetCode 349. Intersection of Two Arrays
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

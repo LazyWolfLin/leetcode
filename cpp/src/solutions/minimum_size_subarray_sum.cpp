@@ -1,6 +1,6 @@
 // LeetCode 209. Minimum Size Subarray Sum
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

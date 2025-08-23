@@ -1,7 +1,7 @@
 // LeetCode 5. Longest Palindromic Substring
 // Manacher Algorithms
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

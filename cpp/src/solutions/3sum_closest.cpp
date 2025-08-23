@@ -1,6 +1,6 @@
 // LeetCode 16. 3Sum Closest
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

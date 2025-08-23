@@ -3,7 +3,7 @@
 import unittest
 from typing import Optional
 
-from common.list import *
+from src.common.list import *
 
 
 class Solution:

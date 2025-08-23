@@ -1,6 +1,6 @@
 // LeetCode 215. Kth Largest Element in an Array
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

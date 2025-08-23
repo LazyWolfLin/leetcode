@@ -1,6 +1,6 @@
 // LeetCode 977. Squares of a Sorted Array
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

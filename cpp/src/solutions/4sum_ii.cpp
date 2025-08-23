@@ -1,6 +1,6 @@
 // LeetCode 454. 4Sum II
 
-#include "cpp/src/common/common.h"
+#include "common.h"
 
 class Solution {
  public:

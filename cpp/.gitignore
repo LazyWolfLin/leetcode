@@ -1,5 +1,5 @@
-# Copy from https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore
-# Commit ID: 2c52d023ddb520962d1aa81ab030ee5172261eb2
+# Copy from https://github.com/github/gitignore/blob/main/C++.gitignore
+# Commit ID: 92800a52cc118463d47eef6b86be41a10476d0b0
 
 # Prerequisites
 *.d
@@ -13,6 +13,12 @@
 # Precompiled Headers
 *.gch
 *.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
 
 # Compiled Dynamic libraries
 *.so
@@ -33,3 +39,6 @@
 *.exe
 *.out
 *.app
+
+# debug information files
+*.dwo

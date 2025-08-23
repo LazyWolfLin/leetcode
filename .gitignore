@@ -1,32 +1,16 @@
+# User Configure
+build/
+
 # Copy from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
-# Commit ID: eefa65c924329ad918985713cdb195e6bc68744b
+# Commit ID: 429b07b7d4d946e46678dece9e0740ec650a53eb
 
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.code-workspace
+!.vscode/*.code-snippets
+!*.code-workspace
 
-# Local History for Visual Studio Code
-.history/
-
-# User Configure
-build/
-
-# Copy from https://github.com/github/gitignore/blob/main/community/Bazel.gitignore
-# Commit ID: b3338626a34e02dc46bcd1448be63fa0635421d7
-
-# gitignore template for Bazel build system
-# website: https://bazel.build/
-
-# Ignore all bazel-* symlinks. There is no full list since this can change
-# based on the name of the directory bazel is cloned into.
-/bazel-*
-
-# Directories for the Bazel IntelliJ plugin containing the generated
-# IntelliJ project files and plugin configuration. Seperate directories are
-# for the IntelliJ, Android Studio and CLion versions of the plugin.
-/.ijwb/
-/.aswb/
-/.clwb/
+# Built Visual Studio Code Extensions
+*.vsix
